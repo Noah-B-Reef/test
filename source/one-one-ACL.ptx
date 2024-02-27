@@ -47,4 +47,52 @@
     definition of <em>upper bound, maximum, lower bound,</em> and <em>minimum</em> codify the context and allow us to prove results
     in a rigorous way.
   </p>
+
+  <definition xml:id="def-up-max">
+    <statement>
+      <p>
+        A real number <m>b</m> is an <em>upper bound</em> of a set of real numbers <m>S</m> if for every <m>x</m> in <m>S</m>, 
+        we have <m>x \leq b</m>. In this case, we say <m>S</m> is <em>bounded above</em>. A real number <m>q</m> is a <em>maximum</em> of <m>S</m> if <m>q</m> is an upper bound of <m>S</m>
+         and <m>q</m> is an element of <m>S</m>. That is,
+         <ol marker="i">
+           <li>for every <m>x</m> in <m>S</m> we have <m>x \leq q</m>, and</li>
+           <li><m>q</m> is in <m>S</m></li>
+          In this case, we write <m>q = \max S</m>.
+        </ol>
+      </p>
+
+
+  <p>
+    Similarly, a real number <m>a</m> is a <em>lower bound</em> for a set of real numbers <m>S</m> if for every <m>x</m> in <m>S</m>, 
+    we have <m>a \leq x</m>. In this case, we say <m>S</m> is <em>bounded below</em>. A real number <m>v</m> is the <em>minimum</em> of <m>S</m> if <m>v</m> 
+    is a lower bound of <m>S</m> and <m>v</m> is an element of <m>S</m>. That is,
+
+    <ol marker="i">
+      <li value="3">for every <m>x</m> in <m>S</m> we have <m>v \leq x</m>, and</li>
+      <li value="4"><m>v</m> is in <m>S</m></li>
+    </ol>
+
+    In this case, we write <m>v = \min S</m>.
+  </p>
+</statement>
+</definition>
+  <p>
+    Let's use <xref ref="def-up-max"/> to prove a couple facts about <m>F</m> and <m>G</m>.
+  </p>
+  <example>
+    <statement>
+      <p>
+        Prove that the interval <m>F = (-\infty, 3140]</m> has a largest element. In other words, <m>\max F</m> exists.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        By checking the properties of <xref ref="def-up-max"/>, since <em>(i)</em> <m>x \leq 3140</m> for every <m>x</m> in <m>F</m>
+        (thus <m>3140</m> is an upper bound of <m>F</m>), and <em>(ii)</em> <m>3140</m> is in <m>F</m>, the interval <m>F</m> has a maximum-
+        its largest element-given by <m>\max F = 3140</m>.
+      </p>
+    </solution>
+
+  </example>
 </section>
