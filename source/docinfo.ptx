@@ -23,7 +23,28 @@
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
-  <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} </latex-image-preamble>
+  <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} 
+    \usepackage{graphicx}
+    \usepackage{mathrsfs, amsthm, amsmath, amssymb}
+    \usepackage{appendix}
+    \usepackage{bm, hyperref}
+    \usepackage{cite}
+    \usepackage{url}
+    \usepackage{epsfig} 
+    \usepackage{euscript}
+    \usepackage{amsfonts}
+    \usepackage{dsfont}
+    \usepackage{pict2e}
+    \usepackage{multicol}
+    \usepackage{lscape}
+    \usepackage{cancel}
+    \usepackage[utf8]{inputenc}
+    \usepackage{calligra}
+    \usepackage[T1]{fontenc}
+    
+    \usepackage{pgfplots}
+    \pgfplotsset{compat=1.17}
+  </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
@@ -31,5 +52,6 @@
   <!-- Specify the default type of cross reference: -->
   <!-- <cross-references text="type-global" /> -->
 
+  <rename element="algorithm">Problem</rename>
 
 </docinfo>

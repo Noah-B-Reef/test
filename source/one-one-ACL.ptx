@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="one-one-ACL" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arbitrarily Close</title>
+
+  <p> 
+    Let's start with a couple of intervals and see if either has a largest element. The set of real numbers is denoted by <m>\R</m>.
+    throughout the book, and the notation <q><m> x \in \R</m></q> means that <m>x</m> is a real number.
+  </p>
+
+  <algorithm xml:id="alg-one-point-one">
+    <statement>
+      <p>
+        Consider the closed interval <m>F</m> and open interval <m>G</m> in <xref ref="one-point-one-point-one"/> given by
+        <md>
+          <mrow> F = (-\infty, 3140] = \{x\in \R: x \leq 3140\} \amp \amp \text{and}</mrow>
+          <mrow>  G = (-\infty, 3140) = \{x \in \R : x &lt; 3140\} \amp \amp </mrow>
+        </md>
+      </p>
+    </statement>
+  </algorithm>
+ 
+  <figure xml:id="one-point-one-point-one">
+    <caption>The intervals <m>F = (-\infty, 3140]</m> and <m>G = (-\infty, 3140)</m> from <xref ref="alg-one-point-one"/></caption>
+    <image xml:id="image-one-point-one-point-one" width="80%">
+        <description>Intervals F and G.</description>
+        <latex-image>
+          \centering
+          \begin{tikzpicture}
+          \draw (-4,0) node {$F$};
+          \draw[&lt;-,semithick] (-2,0) -- (4,0);
+            \draw (4,0) node {$]$};
+            \draw (-2,-0.5) node {$-\infty$};
+            \draw (4,-0.5) node {$3140$};
+          \draw (-4,-1.5) node {$G$};
+            \draw[&lt;-,semithick] (-2,-1.5) -- (4,-1.5);
+            \draw (3.98,-1.5) node {$)$};
+            \draw (-2,-2) node {$-\infty$};
+            \draw (4,-2) node {$3140$};
+          \end{tikzpicture}
+        </latex-image>
+    </image>
+  </figure>
+
+  <p>
+    Do you know what I mean by <q>largest element</q> exactly? How is <q>large</q> used in this context? The following
+    definition of <em>upper bound, maximum, lower bound,</em> and <em>minimum</em> codify the context and allow us to prove results
+    in a rigorous way.
+  </p>
+</section>

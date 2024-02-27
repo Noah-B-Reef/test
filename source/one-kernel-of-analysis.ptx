@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="one-kernel-of-analysis" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kernel of Analysis</title>
+
+  <introduction>
+    <blockquote>
+      <title>Kernel of Analysis</title>
+      <p>
+        A point is <em> arbitrarily close</em> to a set when every neighborhood of the point intersects the set.
+      </p>
+    </blockquote>
+    <p>
+      This notion of <em> arbitrarily close</em> provides the theme of the book and the kernel of analysis. 
+      It allows us to build a foundation for classic results in real analysis dealing with closure, limits and convergence, 
+      connectedness, continuity, differentiation and integration.<fn> <em>Arbitrarily  close</em> is actually topological in nature since we can take 
+      <em>neighborhoods</em> to be open sets containing the point in question.</fn>
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="one-one-ACL.ptx" />
+
+</chapter>
