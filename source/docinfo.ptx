@@ -19,11 +19,89 @@
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
-  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} </macros>
+  <macros>
+    \newcommand{\Z}{\mathbb Z}
+    \newcommand{\Q}{\mathbb Q}
+    \newcommand{\R}{\mathbb R}
+    \newcommand{\bfB}{\mathbf{B}}
+    \newcommand{\bfK}{\mathbf{K}}
+    \newcommand{\bfL}{\mathbf{L}}
+    \newcommand{\bfU}{\mathbf{U}}
+    \newcommand{\bfa}{\mathbf{a}}
+    \newcommand{\bfb}{\mathbf{b}}
+    \newcommand{\bfc}{\mathbf{c}}
+    \newcommand{\bfd}{\mathbf{d}}
+    \newcommand{\bfe}{\mathbf{e}}
+    \newcommand{\bff}{\mathbf{f}}
+    \newcommand{\bfg}{\mathbf{g}}
+    \newcommand{\bfh}{\mathbf{h}}
+    \newcommand{\bfi}{\mathbf{i}}
+    \newcommand{\bfj}{\mathbf{j}}
+    \newcommand{\bfk}{\mathbf{k}}
+    \newcommand{\bfl}{\mathbf{l}}
+    \newcommand{\bfm}{\mathbf{m}}
+    \newcommand{\bfn}{\mathbf{n}}
+    \newcommand{\bfo}{\mathbf{o}}
+    \newcommand{\bfp}{\mathbf{p}}
+    \newcommand{\bfq}{\mathbf{q}}
+    \newcommand{\bfr}{\mathbf{r}}
+    \newcommand{\bfs}{\mathbf{s}}
+    \newcommand{\bft}{\mathbf{t}}
+    \newcommand{\bfu}{\mathbf{u}}
+    \newcommand{\bfv}{\mathbf{v}}
+    \newcommand{\bfw}{\mathbf{w}}
+    \newcommand{\bfx}{\mathbf{x}}
+    \newcommand{\bfy}{\mathbf{y}}
+    \newcommand{\bfz}{\mathbf{z}}
+    \newcommand{\bfPhi}{\mathbf{\Phi}}
+    \newcommand{\bfPsi}{\mathbf{\Psi}}
+    \newcommand{\calA}{\mathcal{A}}
+    \newcommand{\calB}{\mathcal{B}}
+    \newcommand{\calC}{\mathcal{C}}
+    \newcommand{\calD}{\mathcal{D}}
+    \newcommand{\calE}{\mathcal{E}}
+    \newcommand{\calJ}{\mathcal{J}}
+    \newcommand{\calL}{\mathcal{L}}
+    \newcommand{\calM}{\mathcal{M}}
+    \newcommand{\calP}{\mathcal{P}}
+    \newcommand{\calQ}{\mathcal{Q}}
+    \newcommand{\calR}{\mathcal{R}}
+    \newcommand{\calS}{\mathcal{S}}
+    \newcommand{\frakS}{\mathfrak{S}}
+    \newcommand{\frakP}{\mathfrak{P}}
+    \newcommand{\scrA}{\mathscr{A}}
+    \newcommand{\scrB}{\mathscr{B}}
+    \newcommand{\scrC}{\mathscr{C}}
+    \newcommand{\scrH}{\mathscr{H}}
+    \newcommand{\scrJ}{\mathscr{J}}
+    \newcommand{\scrL}{\mathscr{L}}
+    \newcommand{\scrM}{\mathscr{M}}
+    \newcommand{\scrQ}{\mathscr{Q}}
+    \newcommand{\scrS}{\mathscr{S}}
+    \newcommand{\dens}{\textnormal{dens}}
+    \newcommand{\diam}{\textnormal{diam}}
+    \newcommand{\dist}{\textnormal{dist}}
+    \newcommand{\res}{\textnormal{res}}
+    \newcommand{\supp}{\textnormal{supp}}
+    \newcommand{\vol}{\textnormal{vol}}
+    \DeclareMathOperator{\Real}{Re}
+    \DeclareMathOperator{\Imag}{Im}
+    \DeclareMathOperator{\Char}{char}
+    \DeclareMathOperator{\acl}{acl} % for $y \acl B$
+    \DeclareMathOperator{\nacl}{nacl} % for $z \nacl B$
+    \DeclareMathOperator{\awf}{awf} % for $z \awf B \equiv z \nacl B$
+    \DeclareMathOperator*{\clim}{clim} % for $\clim\limits_{x\to c} f(x)=\ell$.
+    \DeclareMathOperator*{\Coda}{Coda} % for $\Coda((x_n))$ etc
+    \DeclareMathOperator*{\Slim}{Slim} % for $\Slim((x_n))$ etc
+  </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
-  <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} 
+  <latex-image-preamble>
+    \usepackage{tikz, pgfplots}
+    \usetikzlibrary{positioning,matrix,arrows}
+    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+    \usetikzlibrary{decorations.markings}
     \usepackage{graphicx}
     \usepackage{mathrsfs, amsthm, amsmath, amssymb}
     \usepackage{appendix}
@@ -41,7 +119,6 @@
     \usepackage[utf8]{inputenc}
     \usepackage{calligra}
     \usepackage[T1]{fontenc}
-    
     \usepackage{pgfplots}
     \pgfplotsset{compat=1.17}
   </latex-image-preamble>
